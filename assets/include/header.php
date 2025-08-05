@@ -28,10 +28,7 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page"
-                            >Trending
-                            <span class="visually-hidden">(current)</span></a
-                        >
+                        <a class="nav-link active" href="#" aria-current="page">Trending</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="#">Tinies</a>
@@ -54,6 +51,7 @@
                         class="form-control me-sm-2"
                         type="text"
                         placeholder="Search"
+                        id="search"
                     />
                     <button
                         class="btn btn-outline-success my-2 my-sm-0"
@@ -62,7 +60,7 @@
                         Search
                     </button>
                 </form>
-                <a href="#" class="ms-3 link-danger">Log In</a>
+                <button data-bs-toggle="modal" data-bs-target="#login" class="ms-3 link-danger btn">Log In</button>
             </div>
         </div>
     </nav>
