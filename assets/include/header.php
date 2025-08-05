@@ -60,7 +60,7 @@
                         Search
                     </button>
                 </form>
-                <button data-bs-toggle="modal" data-bs-target="#login" class="ms-3 link-danger btn">Log In</button>
+                <a class="ms-3 link-danger" href="login.php">Log In</a>
             </div>
         </div>
     </nav>
