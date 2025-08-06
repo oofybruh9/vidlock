@@ -61,7 +61,7 @@ if ($count == 1){
         <br>
         <a name="acct" id="acct" class="btn btn-primary" href="./login.php" role="button">already have an account? log in here!</a>
         
-    </div>img-upload"
+    </div>
     <script>
         $(document).ready( function() {
             function readURL(input, target) {

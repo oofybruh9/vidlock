@@ -28,39 +28,36 @@
             <div class="collapse navbar-collapse" id="collapsibleNavId">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" href="#" aria-current="page">Trending</a>
+                        <a class="nav-link" href="./tinies.php">tinies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tinies</a>
+                        <a class="nav-link" href="./subscriptions.php">subscriptions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Subscriptions</a>
+                        <a class="nav-link" href="./history.php">history</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">History</a>
+                        <a class="nav-link" href="./settings.php">settings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Settings</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#">Studio</a>
+                        <a class="nav-link" href="./studio/">studio</a>
                     </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
                     <input
                         class="form-control me-sm-2"
                         type="text"
-                        placeholder="Search"
+                        placeholder="'coding in javascript sucks lol'"
                         id="search"
                     />
                     <button
                         class="btn btn-outline-success my-2 my-sm-0"
                         type="submit"
                     >
-                        Search
+                        search
                     </button>
                 </form>
-                <a class="ms-3 link-danger" href="login.php">Log In</a>
+                <a class="ms-3 link-danger" href="login.php">log in</a>
             </div>
         </div>
     </nav>
