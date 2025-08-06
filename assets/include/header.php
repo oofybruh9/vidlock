@@ -5,11 +5,11 @@
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        
-        <!-- Bootstrap CSS v5.2.1 -->
+        <script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+        <!-- Bootstrap CSS v5.3.2 -->
         <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
     </head>
-    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+    <nav class="navbar navbar-expand-sm sticky-top bg-body-tertiary">
         <div class="container">
             <a class="navbar-brand" href="./">
                 <img src="./assets/imgs/logo.png" alt="logo" width="120" height="40" class="d-inline-block align-text-top"/>

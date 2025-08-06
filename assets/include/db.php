@@ -1,5 +1,5 @@
 <?php
-require_once("./config.php");
+require_once("./assets/include/config.php");
 
 function debug_to_console($data) {
     $output = $data;
