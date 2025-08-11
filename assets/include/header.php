@@ -1,31 +1,39 @@
 <!doctype html>
+
 <html lang="en">
     <head>
         <title>TuTubo</title>
         <!-- Required meta tags -->
         <meta charset="utf-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-        <script src="//code.jquery.com/jquery-3.7.1.min.js"></script>
+        <script src="./assets/include/jquery-3.7.1.min.js"></script>
         <!-- Bootstrap CSS v5.3.2 -->
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+        <link href="./assets/include/bootstrap.css" rel="stylesheet" />
+        <script src="./assets/include/bootstrap.bundle.min.js"></script>
     </head>
-    <nav class="navbar navbar-expand-sm sticky-top bg-body-tertiary">
-        <div class="container">
+    <script>
+    let device = '';
+    if (navigator.userAgent.match(/Android/i)
+    || navigator.userAgent.match(/iPhone/i)
+    || navigator.userAgent.match(/iPad/i)
+    || navigator.userAgent.match(/iPod/i)
+    || navigator.userAgent.match(/BlackBerry/i)
+    || navigator.userAgent.match(/Windows Phone/i)){
+        window.location.href = "mobile.php" //redir to mobile app download page
+    }
+</script>
+<noscript>
+        <h1>JAVASCRIPT IS DISABLED. PLEASE ENABLE JS FOR THE WEBSITE TO WORK</h1>
+</noscript>
+    <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" id="mainnav">
+        <div class="container-fluid">
             <a class="navbar-brand" href="./">
                 <img src="./assets/imgs/logo.png" alt="logo" width="120" height="40" class="d-inline-block align-text-top"/>
             </a>
-            <button
-                class="navbar-toggler d-lg-none"
-                type="button"
-                data-bs-toggle="collapse"
-                data-bs-target="#collapsibleNavId"
-                aria-controls="collapsibleNavId"
-                aria-expanded="false"
-                aria-label="Toggle navigation"
-            >
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcoll" aria-controls="navcoll" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse" id="collapsibleNavId">
+            <div class="collapse navbar-collapse" id="nav-coll">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
                         <a class="nav-link" href="./tinies.php">tinies</a>
