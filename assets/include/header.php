@@ -11,6 +11,16 @@
         <link href="./assets/include/bootstrap.css" rel="stylesheet" />
         <script src="./assets/include/bootstrap.bundle.min.js"></script>
     </head>
+    <style>
+        @font-face {
+            font-family: "Material Symbols Rounded";
+            src: url("./assets/fonts/MaterialSymbolsRounded.ttf") format('truetype'), url('./assets/fonts/MaterialSymbolsRounded.woff2') format('woff2');
+        }
+        .mico{
+            font-family: "Material Symbols Rounded";
+            font-variation-settings: "wght" 700, "opsz" 24, "GRAD" 0, "FILL" 1;
+        }
+    </style>
     <script>
     let device = '';
     if (navigator.userAgent.match(/Android/i)
@@ -36,19 +46,19 @@
             <div class="collapse navbar-collapse" id="nav-coll">
                 <ul class="navbar-nav me-auto mt-2 mt-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" href="./tinies.php">tinies</a>
+                        <a class="nav-link" href="./tinies.php"><span class="mico align-text-middle">home</span> tinies</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./subscriptions.php">subscriptions</a>
+                        <a class="nav-link" href="./subscriptions.php"><span class="mico">subscriptions</span> subscriptions</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./history.php">history</a>
+                        <a class="nav-link" href="./you.php"><span class="mico">for_you</span> you</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./settings.php">settings</a>
+                        <a class="nav-link" href="./settings.php"><span class="mico">settings</span> settings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./studio/">studio</a>
+                        <a class="nav-link" href="./studio/"><span class="mico">animated_images</span> studio</a>
                     </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
