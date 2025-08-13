@@ -1,21 +1,5 @@
 <?php
 include_once("./assets/include/header.php");
-/*
-include("./assets/include/db.php");
-$email = $_POST["email"];
-$paswd =  password_hash($_POST["pwd"], PASSWORD_DEFAULT);
-$check="SELECT * FROM ppl WHERE Email=? AND Password=?";
-$query=$pdo->prepare($check);
-$query->bind_param("ss",$email,$paswd);
-$query->execute() or die($pdo->error);
-$count=$query->num_rows;
-if ($count == 1){
-    while($row=$query->fetch_assoc){
-        $_SESSION['email']=$row['Email'];
-    }
-    header('Location:index.php');
-}
-*/
 ?>
 
 <!doctype html>
@@ -23,16 +7,18 @@ if ($count == 1){
 <body>
     <div class="w-75 mx-auto p-3">
         <h1>TuTubo settings</h1>
-        <form method="POST" action="./check.php">
-            <div class="mb-3">
-                <label for="email" class="form-label">email</label>
-                <input type="email" class="form-control" name="email" id="email" aria-describedby="emailHelpId" placeholder="abc@mail.com" required/>
+        <form method="POST" action="./settings.php">
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="" id="" />
+                <label class="form-check-label" for=""> Default radio </label>
             </div>
-            <div class="mb-3">
-                <label for="pwd" class="form-label">password</label>
-                <input type="password" class="form-control" name="pwd" id="pwd" placeholder="pwd" required/>
+            <div class="form-check">
+                <input class="form-check-input" type="radio" name="" id="" checked disabled />
+                <label class="form-check-label" for="">
+                    Default checked radio
+                </label>
             </div>
-            <button type="submit" class="btn btn-primary">login</button>
+
         </form>
     </div>
 </body>
