@@ -1,0 +1,21 @@
+RewriteEngine On
+
+# --- Remove .php from visible URLs ---
+RewriteCond %{THE_REQUEST} \s/+([^.]+)\.php[\s?] [NC]
+RewriteRule ^ %1 [R=301,L]
+
+# --- Internally allow .php-less access ---
+RewriteCond %{REQUEST_FILENAME}.php -f
+RewriteRule ^([^/]+)/?$ $1.php [L]
+
+# --- Convert query params to path segments ---
+# Match up to 5 params (extend if needed)
+RewriteCond %{QUERY_STRING} ^([^=]+)=([^&]+)(&([^=]+)=([^&]+))?(&([^=]+)=([^&]+))?(&([^=]+)=([^&]+))?(&([^=]+)=([^&]+))?$ [NC]
+RewriteRule ^([^/]+)/?$ $1/%2/%5/%8/%11/%14? [R=301,L]
+
+# --- Map path segments back to query params ---
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/?$ $1.php?$2=$3&$4=$5&$6=$7 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/([^/]+)/?$ $1.php?$2=$3&$4=$5 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/([^/]+)/?$ $1.php?$2=$3&$4=$5 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/([^/]+)/?$ $1.php?$2=$3 [L,QSA]
+RewriteRule ^([^/]+)/([^/]+)/?$ $1.php?$2=$3 [L,QSA]
