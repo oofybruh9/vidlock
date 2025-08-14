@@ -9,7 +9,7 @@
     <style>
         @font-face {
             font-family: "Material Symbols Rounded";
-            src: url("./assets/fonts/MaterialSymbolsRounded.ttf") format('truetype'), url('./assets/fonts/MaterialSymbolsRounded.woff2') format('woff2');
+            src: url("../assets/fonts/MaterialSymbolsRounded.ttf") format('truetype'), url('./assets/fonts/MaterialSymbolsRounded.woff2') format('woff2');
         }
 
         .mico {
@@ -56,7 +56,7 @@
                         here!</a>
                 </li>
                 <li>
-                    <a class="nav-link" href="../">go back home</a>
+                    <a class="nav-link" href="../"><span class="mico">home</span> go back home</a>
                 </li>
             </ul>
             <form class="d-flex" role="search">

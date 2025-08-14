@@ -25,7 +25,7 @@ if ($count == 1){
         <h1>create a TuTubo account</h1>
         <form method="POST" action="./check.php">
             <div class="input-group mb-3">
-                <span class="input-group-text" id="helpId">@</span>
+                <span class="input-group-text" id="helpId">https://example.com/user/</span>
                 <input type="user" class="form-control" name="user" id="user" aria-describedby="helpId" placeholder="username"/>
             </div>
             <div class="mb-3">

@@ -17,7 +17,7 @@ if ($count == 1){
 }
 */
 ?>
-
+<!-- azure, discord, github, google, twitter -->
 <!doctype html>
 
 <body>
