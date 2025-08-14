@@ -10,7 +10,7 @@ include_once("./assets/include/header.php");
     </video>
     <div class="mb-3 p-3">
     <h1>Big Buck Bunny</h1>
-    <a href="./@.php?channel=peachopen" class="link-underline link-underline-opacity-0">
+    <a href="./user.php?channel=peachopen" class="link-underline link-underline-opacity-0">
     <img src="./assets/imgs/pfps/sample.png" width="60" class="rounded-circle"/>
     The Peach Open Movie Project</a>
     

@@ -38,7 +38,7 @@
     <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" id="mainnav">
         <div class="container-fluid">
             <a class="navbar-brand" href="./">
-                <img src="./assets/imgs/logo.png" alt="logo" width="120" height="40" class="d-inline-block align-text-top"/>
+                <img src="./assets/imgs/logo.png" alt="logo" width="120" class="d-inline-block align-text-top"/>
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcoll" aria-controls="navcoll" aria-expanded="true" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
