@@ -9,7 +9,7 @@ include_once("./assets/include/header.php");
         <h3>Channel Name</h3>
         <h4><a href="user.php?user=channel_user">@channel_user</a></h4>
     </div>
-    <h3>History</h3>
+    <h3>Throwbacks</h3>
     <div class="hstack gap-3 overflow-x-scroll">
         <div class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">
@@ -68,7 +68,7 @@ include_once("./assets/include/header.php");
             </div>
         </div>
     </div>
-    <h3>Playlists</h3>
+    <h3>Stacks</h3>
     <div class="hstack gap-3 overflow-x-scroll">
         <div class="card" style="width: 18rem;">
             <img src="..." class="card-img-top" alt="...">

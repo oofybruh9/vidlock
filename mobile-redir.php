@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Install TuTubo on Android</title>
+    <title>Install VidLock on Android</title>
     <script src="./assets/include/jquery-3.7.1.min.js"></script>
         <!-- Bootstrap CSS v5.3.2 -->
         <link href="./assets/include/bootstrap.css" rel="stylesheet"/>
@@ -40,7 +40,7 @@
                         <a class="nav-link" href="./settings.php">settings</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="./studio/">studio</a>
+                        <a class="nav-link" href="./backrooms/">backrooms</a>
                     </li>
                 </ul>
                 <form class="d-flex my-2 my-lg-0">
@@ -62,7 +62,7 @@
         </div>
     </nav>
 <body>
-    <h1>install tutubo</h1>
+    <h1>install VidLock</h1>
     <h2>avaliable on Android (iOS coming soon!)</h2>
     <a href="#android" class="btn btn-primary">android</a>
     <a href="#ios" class="btn btn-primary">iOS</a>

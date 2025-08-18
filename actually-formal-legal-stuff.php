@@ -4,9 +4,9 @@ include_once("./assets/include/header.php");
 <!doctype html>
 <body>
 <div class="p-4" id="privacy-policy">
-<h1>TuTubo Privacy Policy</h1>
+<h1>VidLock Privacy Policy</h1>
 <p class="muted">Effective Date: August 13, 2025</p>
-<p>TuTubo ("we," "our," "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you use our services.</p>
+<p>VidLock ("we," "our," "us") respects your privacy. This Privacy Policy explains how we collect, use, and protect your personal information when you use our services.</p>
 
 <h2>1. Information We Collect</h2>
 <ul>
@@ -18,7 +18,7 @@ include_once("./assets/include/header.php");
 
 <h2>2. How We Use Your Information</h2>
 <ul>
-  <li>Operate and improve TuTubo.</li>
+  <li>Operate and improve VidLock.</li>
   <li>Personalize your experience (recommendations, theme preferences).</li>
   <li>Enable features like subscriptions, comments, and video uploads.</li>
   <li>Protect the platform from abuse, spam, and security threats.</li>
@@ -31,13 +31,13 @@ include_once("./assets/include/header.php");
     <ul>
       <li>Service providers (hosting, analytics) under confidentiality agreements.</li>
       <li>If required by law or legal process.</li>
-      <li>To protect the safety and rights of TuTubo and its users.</li>
+      <li>To protect the safety and rights of VidLock and its users.</li>
     </ul>
   </li>
 </ul>
 
 <h2>4. Cookies</h2>
-<p>TuTubo uses cookies to remember your settings and track usage statistics. You can disable cookies in your browser settings, but some features may not work.</p>
+<p>VidLock uses cookies to remember your settings and track usage statistics. You can disable cookies in your browser settings, but some features may not work.</p>
 
 <h2>5. Your Rights</h2>
 <ul>
@@ -54,12 +54,12 @@ include_once("./assets/include/header.php");
 
 </div>
 <div class="p-3" id="tos">
-<h1>TuTubo Terms of Service</h1>
+<h1>VidLock Terms of Service</h1>
 <p class="muted">Effective Date: August 13, 2025</p>
-<p>By using TuTubo, you agree to these Terms of Service (“Terms”). If you do not agree, do not use the site.</p>
+<p>By using VidLock, you agree to these Terms of Service (“Terms”). If you do not agree, do not use the site.</p>
 
 <h2>1. Eligibility</h2>
-<p>You must be at least 13 years old to use TuTubo. If under 18, you need parental permission.</p>
+<p>You must be at least 13 years old to use VidLock. If under 18, you need parental permission.</p>
 
 <h2>2. Your Account</h2>
 <ul>
@@ -70,7 +70,7 @@ include_once("./assets/include/header.php");
 
 <h2>3. Your Content</h2>
 <ul>
-  <li>You retain ownership of your videos, but grant TuTubo a worldwide, non-exclusive license to display, distribute, and promote them within the platform.</li>
+  <li>You retain ownership of your videos, but grant VidLock a worldwide, non-exclusive license to display, distribute, and promote them within the platform.</li>
   <li>You may not upload:
     <ul>
       <li>Copyrighted material you don’t own rights to.</li>
@@ -89,7 +89,7 @@ include_once("./assets/include/header.php");
 
 <h2>5. Prohibited Actions</h2>
 <ul>
-  <li>Hack, reverse engineer, or interfere with TuTubo.</li>
+  <li>Hack, reverse engineer, or interfere with VidLock.</li>
   <li>Use automated systems (bots) without permission.</li>
   <li>Harass, threaten, or abuse other users.</li>
 </ul>
@@ -98,7 +98,7 @@ include_once("./assets/include/header.php");
 <p>We may suspend or delete your account if you violate these Terms or applicable laws.</p>
 
 <h2>7. Limitation of Liability</h2>
-<p>TuTubo is provided “as is.” We are not liable for any damages from your use of the platform.</p>
+<p>VidLock is provided “as is.” We are not liable for any damages from your use of the platform.</p>
 
 <h2>8. Changes</h2>
 <p>We may update these Terms at any time. Continued use after changes means you accept them.</p>

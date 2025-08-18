@@ -6,7 +6,7 @@ include_once("./assets/include/header.php");
 <body>
     <video id="player" playsinline controls>
         <!--<source src="https://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4" />-->
-        <source src="https://drive.usercontent.google.com/download?id=17bjud6L1GGI7-6oWa10eM3mYJiZtDXA9&export=download" type="video/mp4">
+        <source src="https://app.box.com/index.php?rm=box_download_shared_file&shared_name=lar0qzcufbnydwzb6qpzmkrexw03170x&file_id=f_1957513053207" type="video/mp4">
     </video>
     <div class="mb-3 p-3">
     <h1>Big Buck Bunny</h1>

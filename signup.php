@@ -22,7 +22,7 @@ if ($count == 1){
 
 <body>
     <div class="w-75 mx-auto p-3">
-        <h1>create a TuTubo account</h1>
+        <h1>create a VidLock account</h1>
         <div class="hstack">
             
         </div>

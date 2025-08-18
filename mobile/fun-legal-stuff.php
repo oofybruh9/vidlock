@@ -21,9 +21,9 @@ include_once("./assets/include/header.php");
     </section>
 
     <section id="privacy" aria-labelledby="privacy-title">
-        <h1 id="-tutubo-privacy-policy-the-no-cap-edition-">📜 TuTubo Privacy Policy - <strong>The “No Cap”
+        <h1 id="-VidLock-privacy-policy-the-no-cap-edition-">📜 VidLock Privacy Policy - <strong>The “No Cap”
                 Edition</strong></h1>
-        <p><strong>Effective Date:</strong> When you started using TuTubo and said “This is lit.”</p>
+        <p><strong>Effective Date:</strong> When you started using VidLock and said “This is lit.”</p>
         <p>We respect your privacy. Here's the tea:</p>
         <h2 id="1-what-we-collect">1. What We Collect</h2>
         <ul>
@@ -57,10 +57,10 @@ include_once("./assets/include/header.php");
     </section>
 
     <section id="terms" aria-labelledby="terms-title">
-        <h1 id="-tutubo-terms-of-service-the-don-t-be-a-clown-edition-">📄 TuTubo Terms of Service - <strong>The “Don't
+        <h1 id="-VidLock-terms-of-service-the-don-t-be-a-clown-edition-">📄 VidLock Terms of Service - <strong>The “Don't
                 Be a Clown” Edition</strong></h1>
         <p><strong>Effective Date:</strong> When you clicked “Sign Up” instead of touching grass you bi--.</p>
-        <h2 id="1-who-can-use-tutubo">1. Who Can Use TuTubo</h2>
+        <h2 id="1-who-can-use-VidLock">1. Who Can Use VidLock</h2>
         <ul>
             <li>You gotta be 13+ (or have parental permission if you're a baby).</li>
         </ul>
@@ -91,10 +91,10 @@ include_once("./assets/include/header.php");
         <h2 id="6-termination">6. Termination</h2>
         <p>We can yeet your account into the void if you break the rules.</p>
         <h2 id="7-legal-stuff">7. Legal Stuff</h2>
-        <p>TuTubo is “as is.” If your toaster catches fire while watching videos here, that's on you bro.</p>
+        <p>VidLock is “as is.” If your toaster catches fire while watching videos here, that's on you bro.</p>
 
         <h2>8) Changes</h2>
-        <p>We can update these Terms. Using TuTubo after changes means you accept the new Terms.</p>
+        <p>We can update these Terms. Using VidLock after changes means you accept the new Terms.</p>
 
         <p class="legal-note muted">This fun version is a summary. Keep a link to your formal legal ToS for the full
             details.</p>

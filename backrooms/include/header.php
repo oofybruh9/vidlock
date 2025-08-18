@@ -2,7 +2,7 @@
 <html>
 
 <head>
-    <title>TuTubo Studio</title>
+    <title>VidLock backrooms</title>
     <link rel="stylesheet" href="../assets/include/bootstrap.css">
     <script src="../assets/include/bootstrap.bundle.min.js"></script>
     <script src="../assets/include/jquery-3.7.1.min.js"></script>
@@ -21,8 +21,8 @@
 <nav class="navbar navbar-expand-lg bg-body-tertiary">
     <div class="container-fluid">
         <a class="navbar-brand" href="./">
-            <img src="../assets/imgs/logo.png" alt="TuTubo Logo" width="120">
-            Studio
+            <img src="../assets/imgs/logo.png" alt="VidLock Logo" height="50">
+            Backrooms
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -43,7 +43,7 @@
                     <ul class="dropdown-menu">
                         <li><a class="dropdown-item" href="./analytics.php?type=all">all analytics</a></li>
                         <li><a class="dropdown-item" href="./analytics.php?type=video">video-only analytics</a></li>
-                        <li><a class="dropdown-item" href="./analytics.php?type=tinies">tiny-only analytics</a></li>
+                        <li><a class="dropdown-item" href="./analytics.php?type=tinies">zap-only analytics</a></li>
                         <li><a href="./all-videos.php?type=analytics" class="dropdown-item">single-content analytics</a>
                         </li>
                     </ul>

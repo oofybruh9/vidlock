@@ -6,7 +6,7 @@ include_once("./assets/include/header.php");
 
 <body>
     <div class="w-75 mx-auto p-3">
-        <h1>TuTubo settings</h1>
+        <h1>VidLock settings</h1>
         <form method="POST" action="./settings.php">
             <div class="mb-3">
                 <label for="mode" class="form-label">Mode</label>

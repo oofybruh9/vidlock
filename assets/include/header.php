@@ -3,7 +3,7 @@
 <html lang="en">
 
 <head>
-    <title>TuTubo</title>
+    <title>VidLock</title>
     <!-- Required meta tags -->
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
@@ -11,6 +11,7 @@
     <!-- Bootstrap CSS v5.3.2 -->
     <link href="./assets/include/bootstrap.css" rel="stylesheet" />
     <script src="./assets/include/bootstrap.bundle.min.js"></script>
+    <link rel="shortcut icon" href="./assets/imgs/logo.png" type="image/x-icon">
 </head>
 <style>
     @font-face {
@@ -36,7 +37,7 @@
             let params = new URLSearchParams(document.location.search);
             let name = params.get("id");
             window.location.href = `./mobile.php?what=watch&id=${name}`
-        } else if ($path == "/tinies.php" || $path == "/tinies") {
+        } else if ($path == "/zaps.php" || $path == "/zaps/*") {
             let params = new URLSearchParams(document.location.search);
             let name = params.get("id");
             window.location.href = `./mobile.php?what=tiny&id=${name}`
@@ -52,8 +53,8 @@
             window.location.href = `./mobile.php?what=tiny&id=${name}`
         } else if ($path == "/you.php" || $path == "/you") {
             window.location.href = `./mobile.php?what=you`
-        } else if ($path == "/studio/*") {
-            window.location.href = `./studio-m.php`
+        } else if ($path == "/backrooms/*") {
+            window.location.href = `./backrooms-m.php`
         } else {
             window.location.href = "mobile.php" //redir to mobile app download page
         }
@@ -65,7 +66,7 @@
 <nav class="navbar navbar-expand-lg sticky-top bg-body-tertiary" id="mainnav">
     <div class="container-fluid">
         <a class="navbar-brand" href="./">
-            <img src="./assets/imgs/logo.png" alt="logo" width="120" class="d-inline-block align-text-top" />
+            <img src="./assets/imgs/logo.png" alt="logo" height="50" class="d-inline-block align-text-top" />
         </a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navcoll"
             aria-controls="navcoll" aria-expanded="true" aria-label="Toggle navigation">
@@ -77,8 +78,7 @@
                     <a class="nav-link" href="./zaps.php"><span class="mico align-text-middle">acute</span> zaps</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./subscriptions.php"><span class="mico">subscriptions</span>
-                        subscriptions</a>
+                    <a class="nav-link" href="./subscriptions.php"><span class="mico">subscriptions</span> my circle</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./you.php"><span class="mico">for_you</span> you</a>
@@ -87,7 +87,7 @@
                     <a class="nav-link" href="./settings.php"><span class="mico">settings</span> settings</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./studio/"><span class="mico">animated_images</span> studio</a>
+                    <a class="nav-link" href="./backrooms/"><span class="mico">animated_images</span> backrooms</a>
                 </li>
             </ul>
             <form class="d-flex my-2 my-lg-0">

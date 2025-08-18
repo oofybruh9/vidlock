@@ -22,7 +22,7 @@ if ($count == 1){
 
 <body>
     <div class="w-75 mx-auto p-3">
-        <h1>login to TuTubo</h1>
+        <h1>login to VidLock</h1>
         <form method="POST" action="./check.php">
             <div class="mb-3">
                 <label for="email" class="form-label">email</label>
